@@ -4,6 +4,6 @@ namespace creature_collection_interfaces
 {
     public interface IAir
     {
-       string livesInAir { get; set;}
+       Boolean livesInAir { get; set;}
     }
 }

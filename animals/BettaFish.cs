@@ -6,7 +6,7 @@ namespace creature_collection_interfaces
     {
         public int MaximumDepth {get; set; }
 
-        public string livesInWater { get; set; }
+        public Boolean livesInWater { get; set; }
 
         public void Swim()
         {

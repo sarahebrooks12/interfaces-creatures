@@ -4,16 +4,16 @@ namespace creature_collection_interfaces
 {
     public class Ants : IWalking, ILand
     {
-        public string livesOnLand { get; set; }
+        public Boolean livesOnLand { get; set; }
 
         public void Run()
         {
-            Console.WriteLine();
+            Console.WriteLine("MARCH");
         }
 
         public void Walk()
         {
-            Console.WriteLine();
+            Console.WriteLine("march");
 
         }
     }

@@ -4,7 +4,7 @@ namespace creature_collection_interfaces
 {
     public interface ISea
     {
-       string livesInWater { get; set;}
+       Boolean livesInWater { get; set;}
        
     }
 }
